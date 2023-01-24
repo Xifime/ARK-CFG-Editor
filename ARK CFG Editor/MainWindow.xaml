@@ -1,0 +1,38 @@
+﻿<Window x:Class="ARK_CFG_Editor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ARK_CFG_Editor"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="ARK CFG Editor" Height="300" Width="490">
+    <Grid>
+        <Button x:Name="LoadBtn" Content="Запустить!" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Width="83" Height="25" Click="LoadBtn_Click"/>
+        <TextBox x:Name="KeyCode" HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextAlignment="Center"/>
+        <CheckBox x:Name="CBShadows" Checked="CBShadows_Check" Unchecked="CBShadows_Check" Content="Выключить тени и освещение" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="BuildBtn" Content="Установить" HorizontalAlignment="Left" Margin="10,210,0,0" VerticalAlignment="Top" Width="217" Click="BuildBtn_Click"/>
+        <Button x:Name="ConnectBug2" Content="Подключиться" HorizontalAlignment="Left" Margin="249,40,-217,0" VerticalAlignment="Top" Width="100" Click="ConnectBug2_Click"/>
+        <Button x:Name="ConnectBug3" Content="Помощь" HorizontalAlignment="Left" Margin="366,40,-217,0" VerticalAlignment="Top" Width="100" Click="ConnectBug3_Click"/>
+        <CheckBox x:Name="CBEffects" Checked="CBEffects_Check" Unchecked="CBEffects_Check" Content="Выключить пиво, воду, тек (!)" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CBEmitters" Checked="CBEmitters_Check" Unchecked="CBEmitters_Check" Content="Выключить эффекты огнемёта" HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CBFogHEAVY" Checked="CBFogHEAVY_Check" Unchecked="CBFogHEAVY_Check" Content="Выключить туман (Тяж. метод) (!)" HorizontalAlignment="Left" Margin="10,85,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CBFogLIGHT" Checked="CBFogLIGHT_Check" Unchecked="CBFogLIGHT_Check" Content="Выключить туман (Лёг. метод) (!)" HorizontalAlignment="Left" Margin="10,100,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CBFoliage" Checked="CBFoliage_Check" Unchecked="CBFoliage_Check" Content="Выключить листья, траву, кусты (!)" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CBWaterSurface" Checked="CBWaterSurface_Check" Unchecked="CBWaterSurface_Check" Content="Выключить поверхность воды (!)" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CBOptimization" Checked="CBOptimization_Check" Unchecked="CBOptimization_Check" Content="Оптимизировать картинку" HorizontalAlignment="Left" Margin="10,146,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CBFPSCap" Checked="CBFPSCap_Check" Unchecked="CBFPSCap_Check" Content="Снять ограничение кадров" HorizontalAlignment="Left" Margin="10,161,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CBLimitSettings" Checked="CBLimitSettings_Check" Unchecked="CBLimitSettings_Check" Content="Ограничить настройки графики" HorizontalAlignment="Left" Margin="10,176,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="CBOFFWarnings" Checked="CBOFFWarnings_Check" Unchecked="CBOFFWarnings_Check" Content="Откл. предупреждения программы" HorizontalAlignment="Left" Margin="10,191,0,0" VerticalAlignment="Top" Width="217"/>
+        <TextBox x:Name="Path" HorizontalAlignment="Left" Height="25" Margin="10,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="217" TextAlignment="Center"/>
+        <TextBox x:Name="ConnectBug" HorizontalAlignment="Left" Height="25" Margin="249,10,-217,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="217" TextAlignment="Center"/>
+        <Button x:Name="CopyBtn" Content="Скопировать" HorizontalAlignment="Left" Margin="10,235,0,0" VerticalAlignment="Top" Width="217" Click="CopyBtn_Click"/>
+        <Button x:Name="NewPath" Content="Изменить путь конфигурации" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="217" Click="NewPath_Click" Height="25"/>
+        <ComboBox x:Name="Presets" HorizontalAlignment="Left" Margin="249,65,0,0" VerticalAlignment="Top" Width="217">
+        </ComboBox>
+        <Button x:Name="CreateBtn" Content="Создать пресет" HorizontalAlignment="Left" Margin="249,92,0,0" VerticalAlignment="Top" Width="100" Click="CreateBtn_Click"/>
+        <Button x:Name="DelBtn" Content="Удалить пресет" HorizontalAlignment="Left" Margin="366,92,0,0" VerticalAlignment="Top" Width="100" Click="DelBtn_Click"/>
+        <Button x:Name="InstallBtn" Content="Установить пресет" HorizontalAlignment="Left" Margin="249,117,0,0" VerticalAlignment="Top" Width="217" Click="InstallBtn_Click"/>
+        <Button x:Name="UnlockMinimaps" Content="Разблокировать миникарты" HorizontalAlignment="Left" Margin="249,235,0,0" VerticalAlignment="Top" Width="217" Click="UnlockMinimaps_Click"/>
+    </Grid>
+</Window>

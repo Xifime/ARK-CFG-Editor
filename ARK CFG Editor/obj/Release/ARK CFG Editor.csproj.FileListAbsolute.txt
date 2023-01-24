@@ -1,0 +1,32 @@
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\bin\Release\ARK CFG Editor.exe.config
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\bin\Release\ARK CFG Editor.exe
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\bin\Release\ARK CFG Editor.pdb
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.csproj.AssemblyReference.cache
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\MainWindow.g.cs
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\App.g.cs
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor_MarkupCompile.cache
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor_MarkupCompile.lref
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\MainWindow.baml
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.g.resources
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK_CFG_Editor.Properties.Resources.resources
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.csproj.GenerateResource.cache
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.csproj.CoreCompileInputs.cache
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.exe
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.pdb
+C:\Users\Ivan\source\repos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.csproj.SuggestedBindingRedirects.cache
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\bin\Release\ARK CFG Editor.exe.config
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\bin\Release\ARK CFG Editor.exe
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\bin\Release\ARK CFG Editor.pdb
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.csproj.AssemblyReference.cache
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.csproj.SuggestedBindingRedirects.cache
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\MainWindow.g.cs
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\App.g.cs
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor_MarkupCompile.cache
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor_MarkupCompile.lref
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\MainWindow.baml
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.g.resources
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK_CFG_Editor.Properties.Resources.resources
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.csproj.GenerateResource.cache
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.csproj.CoreCompileInputs.cache
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.exe
+D:\allrepos\ARK CFG Editor\ARK CFG Editor\obj\Release\ARK CFG Editor.pdb
