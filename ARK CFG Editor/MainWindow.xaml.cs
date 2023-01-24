@@ -649,10 +649,28 @@ namespace ARK_CFG_Editor
         }
         private void InstallBtn_Click(object sender, RoutedEventArgs e)
         {
-            if(File.Exists("copydata/" + Presets.SelectedItem.ToString().Replace("System.Windows.Controls.ComboBoxItem: ", "") + ".ini") && File.Exists(Path.Text + "/ConsoleVariables.ini"))
+            if(File.Exists("copydata/" + Presets.SelectedItem.ToString().Replace("System.Windows.Controls.ComboBoxItem: ", "") + ".ini") && File.Exists(Path.Text + "/BaseDeviceProfiles.ini"))
             {
-                File.Delete(Path.Text + "/ConsoleVariables.ini");
-                File.Copy("copydata/" + Presets.SelectedItem.ToString().Replace("System.Windows.Controls.ComboBoxItem: ", "") + ".ini", Path.Text + "/ConsoleVariables.ini");
+                File.Delete(Path.Text + "/BaseDeviceProfiles.ini");
+                string[] m = File.ReadAllLines("copydata/" + Presets.SelectedItem.ToString().Replace("System.Windows.Controls.ComboBoxItem: ", "") + ".ini");
+                string[] casesr = File.ReadAllLines("copydata/Reader.ini");
+                File.WriteAllText(Path.Text + "/BaseDeviceProfiles.ini", "");
+                foreach (string line in casesr)
+                {
+                    File.AppendAllText(Path.Text + "/BaseDeviceProfiles.ini", Environment.NewLine + line);
+                }
+                File.AppendAllText(Path.Text + "/BaseDeviceProfiles.ini", "; /// Сгенерировано в ARK CFG EDITOR ///" + Environment.NewLine + Environment.NewLine + "[Windows DeviceProfile]" + Environment.NewLine);
+                foreach (string mp in m)
+                {
+                    if(mp == "; /// Сгенерировано в ARK CFG EDITOR ///")
+                    {
+
+                    }
+                    else
+                    {
+                        File.AppendAllText(Path.Text + "/BaseDeviceProfiles.ini", Environment.NewLine + "+CVars=" + mp);
+                    }
+                }
                 MessageBox.Show("Конфигурация успешно установлена!", "ARK CFG Editor", MessageBoxButton.OK, MessageBoxImage.Information);
             }
             else
